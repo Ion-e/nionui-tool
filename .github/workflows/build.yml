@@ -2,10 +2,9 @@ name: Build
 
 on:
   push:
-    branches:
-    tags:
+    branches: [ master ]
   pull_request:
-    branches:
+    branches: [ master ]
 
 env:
   tool-id: nionui-tool
